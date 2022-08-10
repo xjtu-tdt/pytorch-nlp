@@ -22,7 +22,7 @@ TextCNN
     |-- utils.py             数据处理文件
 
 # TextCNN 模型结构图
-![TextCNN 论文中模型](image/模型原型图.jpg)
+![TextCNN 论文中模型](https://github.com/mzc421/pytorch-nlp/blob/master/01-TextCNN%20%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/image/%E6%A8%A1%E5%9E%8B%E5%8E%9F%E5%9E%8B%E5%9B%BE.jpg)
 ![TextCNN 简化后模型](image/模型简化图.jpg)
 
 输入一句话：I like this movie very mush!，将其向量化，得到维度为5的矩阵，其 shape 为[1, 7, 5]。
