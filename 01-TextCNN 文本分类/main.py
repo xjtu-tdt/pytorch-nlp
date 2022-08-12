@@ -43,7 +43,7 @@ if __name__ == "__main__":
     dev_loader = DataLoader(dev_dataset, args.batch_size, shuffle=False)
 
     model = TextCNNModel(words_embedding, args.max_len, args.class_num, args.num_filters).to(device)
-    opt = torch.optim.AdamW(model.parameters(), lr=args.learn_late)
+    opt = torch.optim.AdamW(model.parameters(), lr=args.learn_rate)
     loss_fn = nn.CrossEntropyLoss()
 
     acc_max = float("-inf")
