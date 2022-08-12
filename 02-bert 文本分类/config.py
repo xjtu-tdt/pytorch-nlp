@@ -18,7 +18,7 @@ def parsers():
     parser.add_argument("--max_len", type=int, default=38)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--epochs", type=int, default=10)
-    parser.add_argument("--learn_late", type=float, default=1e-5)
+    parser.add_argument("--learn_rate", type=float, default=1e-5)
     parser.add_argument("--num_filters", type=int, default=768)
     parser.add_argument("--save_model_best", type=str, default=os.path.join("model", "best_model.pth"))
     parser.add_argument("--save_model_last", type=str, default=os.path.join("model", "last_model.pth"))
