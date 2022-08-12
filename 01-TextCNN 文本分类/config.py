@@ -19,7 +19,7 @@ def parsers():
     parser.add_argument("--embedding_num", type=int, default=50)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--epochs", type=int, default=30)
-    parser.add_argument("--learn_late", type=float, default=1e-3)
+    parser.add_argument("--learn_rate", type=float, default=1e-3)
     parser.add_argument("--num_filters", type=int, default=2, help="卷积产生的通道数")
     parser.add_argument("--save_model_best", type=str, default=os.path.join("model", "best_model.pth"))
     parser.add_argument("--save_model_last", type=str, default=os.path.join("model", "last_model.pth"))
