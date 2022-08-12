@@ -35,7 +35,7 @@ if __name__ == "__main__":
     dev_dataloader = DataLoader(dev_dataset, batch_size=args.batch_size, shuffle=False)
 
     model = MyModel().to(device)
-    opt = AdamW(model.parameters(), lr=args.learn_late)
+    opt = AdamW(model.parameters(), lr=args.learn_rate)
     loss_fn = nn.CrossEntropyLoss()
 
     acc_max = float("-inf")
