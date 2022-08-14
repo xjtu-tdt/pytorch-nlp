@@ -3,14 +3,11 @@
 # @Data:   2022/8/11
 # @Email:  m21z50c71@163.com
 
-
-import os
 from config import parsers
 # transformer库是一个把各种预训练模型集成在一起的库，导入之后，你就可以选择性的使用自己想用的模型，这里使用的BERT模型。
 # 所以导入了bert模型，和bert的分词器，这里是对bert的使用，而不是bert自身的源码。
 from transformers import BertTokenizer
 from torch.utils.data import Dataset, DataLoader
-import torch
 
 
 def read_data(file):
