@@ -65,7 +65,7 @@ class BertTextModel_encode_layer(nn.Module):
         # 将每一层的第一个token(cls向量)提取出来，拼在一起当作textCnn的输入
         for i in range(2, 13):
             cls_embeddings = torch.cat((cls_embeddings, hidden_states[i][:, 0, :].unsqueeze(1)), dim=1)
-        # cls_embeddings: [bs, 12, hidden]
+        # cls_embeddings: [batch_size, 12, hidden]
         pred = self.textCnn(cls_embeddings)
         return pred
 
