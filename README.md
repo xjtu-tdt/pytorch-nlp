@@ -1,27 +1,6 @@
-# ÏîÄ¿Ãû³Æ£º
-Ê¹ÓÃ Word2Vec À´ÑµÁ·×Ö&´ÊÏòÁ¿²¢Ê¹ÓÃ
-
-# ÏîÄ¿»·¾³£º
-python   
-Ïà¹Ø¿â°²×°
-`pip install -r requirement.txt`
-
-# ÏîÄ¿Ä¿Â¼£º
-```
-Word2Vec      
-    |-- data                     Êı¾İ¼¯                              
-    |-- main.py                  Ö÷º¯Êı
-    |-- requiremeny.txt          Ïà¹Ø¿â
-    |-- word.model               ×ÖÑµÁ·Ä£ĞÍ
-    |-- word_data.vector         ×ÖÏòÁ¿
-    |-- WordPartialWeight.pkl    µ¥¶À±£´æµÄ×ÖµÄÊı¾İ
-    |-- words.model              ´ÊÑµÁ·Ä£ĞÍ
-    |-- words_data.vector        ´ÊÏòÁ¿
-    |-- WordsPartialWeight.pkl   µ¥¶À±£´æµÄ´ÊµÄÊı¾İ
-```
-
-# ÏîÄ¿Êı¾İ¼¯
-Êı¾İ¼¯Ê¹ÓÃTHUCNewsÖĞµÄtrain.txt¡¢test.txt¡¢dev.txt ÖĞËùÓĞµÄÎÄ±¾Êı¾İ£¬Ò»¹²ÓĞ 20000 Ìõ
-
-# Ä£ĞÍÑµÁ·Óë²é¿´
-`python main.py`
+# pytorch-nlp
+ä½¿ç”¨ pytorch æ¡†æ¶æ¥å¤„ç†è‡ªç„¶è¯­è¨€ï¼ˆæ–‡æœ¬åˆ†ç±»ã€å®ä½“è¯†åˆ«ã€ä¸‰å…ƒç»„æŠ½å–ï¼‰
+[00-Word2Vec å­—&è¯å‘é‡](00-Word2Vec%20å­—&è¯å‘é‡)
+[01-TextCNN æ–‡æœ¬åˆ†ç±»](01-TextCNN%20æ–‡æœ¬åˆ†ç±»)         
+[02-Bert æ–‡æœ¬åˆ†ç±»](02-bert%20æ–‡æœ¬åˆ†ç±»)          
+[03-Bert-TextCNN æ–‡æœ¬åˆ†ç±»](03-bert-TextCNN%20æ–‡æœ¬åˆ†ç±»)
