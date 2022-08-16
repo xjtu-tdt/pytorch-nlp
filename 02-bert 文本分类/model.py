@@ -25,7 +25,7 @@ class MyModel(nn.Module):
     def forward(self, x):
         input_ids, attention_mask = x[0].to(self.device), x[1].to(self.device)
         hidden_out = self.bert(input_ids, attention_mask=attention_mask,
-                               output_encoded_layers=False)  # 控制是否输出所有encoder层的结果
+                               output_hidden_states=False)  # 控制是否输出所有encoder层的结果
         # shape (batch_size, hidden_size)  pooler_output -->  hidden_out[0]
         pred = self.linear(hidden_out.pooler_output)
         # 返回预测结果
