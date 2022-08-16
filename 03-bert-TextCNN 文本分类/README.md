@@ -65,3 +65,7 @@ parser.add_argument("--bert_pred", type=str, default="./bert-base-chinese", help
 parser.add_argument("--class_num", type=int, default=10)   
 parser.add_argument("--max_len", type=int, default=38)
 ```
+
+# 博客地址
+[CSDN](https://blog.csdn.net/qq_48764574/article/details/126323731)
+
