@@ -1,27 +1,30 @@
-# ÏîÄ¿Ãû³Æ£º
-Ê¹ÓÃ Word2Vec À´ÑµÁ·×Ö&´ÊÏòÁ¿²¢Ê¹ÓÃ
+# é¡¹ç›®åç§°ï¼š
+ä½¿ç”¨ Word2Vec æ¥è®­ç»ƒå­—&è¯å‘é‡å¹¶ä½¿ç”¨
 
-# ÏîÄ¿»·¾³£º
+# é¡¹ç›®ç¯å¢ƒï¼š
 python   
-Ïà¹Ø¿â°²×°
+ç›¸å…³åº“å®‰è£…
 `pip install -r requirement.txt`
 
-# ÏîÄ¿Ä¿Â¼£º
+# é¡¹ç›®ç›®å½•ï¼š
 ```
 Word2Vec      
-    |-- data                     Êı¾İ¼¯                              
-    |-- main.py                  Ö÷º¯Êı
-    |-- requiremeny.txt          Ïà¹Ø¿â
-    |-- word.model               ×ÖÑµÁ·Ä£ĞÍ
-    |-- word_data.vector         ×ÖÏòÁ¿
-    |-- WordPartialWeight.pkl    µ¥¶À±£´æµÄ×ÖµÄÊı¾İ
-    |-- words.model              ´ÊÑµÁ·Ä£ĞÍ
-    |-- words_data.vector        ´ÊÏòÁ¿
-    |-- WordsPartialWeight.pkl   µ¥¶À±£´æµÄ´ÊµÄÊı¾İ
+    |-- data                     æ•°æ®é›†                              
+    |-- main.py                  ä¸»å‡½æ•°
+    |-- requiremeny.txt          ç›¸å…³åº“
+    |-- word.model               å­—è®­ç»ƒæ¨¡å‹
+    |-- word_data.vector         å­—å‘é‡
+    |-- WordPartialWeight.pkl    å•ç‹¬ä¿å­˜çš„å­—çš„æ•°æ®
+    |-- words.model              è¯è®­ç»ƒæ¨¡å‹
+    |-- words_data.vector        è¯å‘é‡
+    |-- WordsPartialWeight.pkl   å•ç‹¬ä¿å­˜çš„è¯çš„æ•°æ®
 ```
 
-# ÏîÄ¿Êı¾İ¼¯
-Êı¾İ¼¯Ê¹ÓÃTHUCNewsÖĞµÄtrain.txt¡¢test.txt¡¢dev.txt ÖĞËùÓĞµÄÎÄ±¾Êı¾İ£¬Ò»¹²ÓĞ 20000 Ìõ
+# é¡¹ç›®æ•°æ®é›†
+æ•°æ®é›†ä½¿ç”¨THUCNewsä¸­çš„train.txtã€test.txtã€dev.txt ä¸­æ‰€æœ‰çš„æ–‡æœ¬æ•°æ®ï¼Œä¸€å…±æœ‰ 20000 æ¡
 
-# Ä£ĞÍÑµÁ·Óë²é¿´
+# æ¨¡å‹è®­ç»ƒä¸æŸ¥çœ‹
 `python main.py`
+
+# åšå®¢åœ°å€
+[CSDN](https://blog.csdn.net/qq_48764574/article/details/126350812)
