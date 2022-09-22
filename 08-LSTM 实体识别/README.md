@@ -37,7 +37,7 @@ LSTM(Long_short_term_memory),使用LSTM模型可以更好的捕捉到较长距�
 ![./image/输出门公式1.png](./image/输出门公式1.png)     
 ![./image/输出门公式2.png](./image/输出门公式2.png)
 
-[LSTM 模型讲解](https://www.bilibili.com/video/BV1if4y1x7vf?p=8&vd_source=946c3fb8fdb85266f0efe9377f81df78)
+[LSTM 模型视频讲解](https://www.bilibili.com/video/BV1if4y1x7vf?p=8&vd_source=946c3fb8fdb85266f0efe9377f81df78)
 
 # 项目数据集
 数据集用的是论文[【ACL 2018Chinese NER using Lattice LSTM】](https://github.com/jiesutd/LatticeLSTM)中从新浪财经收集的简历数据。
