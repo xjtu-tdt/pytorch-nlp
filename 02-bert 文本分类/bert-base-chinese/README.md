@@ -1,5 +1,5 @@
-bert ÖÐÎÄÔ¤ÑµÁ·Ä£ÐÍ
-ÐèÏÂÔØ£º[bert-base-chinese at main](https://huggingface.co/bert-base-chinese/tree/main)
-config.json
-pytorch_model.bin
-vocab.txt
+bert ä¸­æ–‡é¢„è®­ç»ƒæ¨¡åž‹
+éœ€ä¸‹è½½ï¼š[bert-base-chinese at main](https://huggingface.co/bert-base-chinese/tree/main)               
+config.json                  
+pytorch_model.bin                   
+vocab.txt         
