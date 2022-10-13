@@ -20,7 +20,7 @@ pytorch、python
 ```
 
 # 模型介绍
-BiLSTM(Bi-directional LSTM)，就可以更好的捕捉双向的语义依赖，对于更细粒的分类可以很好学到（如：表示程度的词）。      
+Bi-LSTM(Bi-directional LSTM)，就可以更好的捕捉双向的语义依赖，对于更细粒的分类可以很好学到（如：表示程度的词）。      
 由前向的 LSTM 和 后向的 LSTM 结合成 BiLSTM      
 绝定参数：```bidirectional: If True, becomes a bidirectional LSTM. Default: False```
 
