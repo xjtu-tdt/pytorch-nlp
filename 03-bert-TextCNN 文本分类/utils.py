@@ -26,7 +26,7 @@ def read_data(file):
 
 
 class MyDataset(Dataset):
-    def __init__(self, texts, with_labels=True, labels=None):
+    def __init__(self, texts, labels, with_labels=True):
         self.all_text = texts
         self.all_label = labels
         self.max_len = parsers().max_len
