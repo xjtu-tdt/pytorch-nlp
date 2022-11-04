@@ -22,7 +22,7 @@ if __name__ == "__main__":
     start = time.time()
     args = parsers()
     logger_init(log_level=logging.INFO)
-    device = "cuda:0" if args.device else "cpu"
+    device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
     train_text, train_label, max_len = read_data(args.train_file)
     dev_text, dev_label = read_data(args.dev_file)
